@@ -1,0 +1,46 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+button:hover{
+ background-color: green;
+ color: white;
+ padding: 10px 30px;
+}
+
+button{
+ background-color: grey;
+ color: white;
+ padding: 10px 30px;
+}
+
+/* 
+.container p:first-child{
+    background-color: yellow;
+}
+ 
+.container p:last-child{
+    background-color: blue; */
+
+.container p:nth-child(2){
+    background-color: green
+}
+
+.box p::first-letter{
+    font-size: 30px;
+}
+
+.box p::first-line{
+   text-decoration: underline;
+}
+
+.box h1::after{
+  content:'-' ;
+}
+
+.box h1::before{
+     content:'-';
+}
+ 
+    

@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.relative{
+    position: relative;
+    left: 50px;
+
+}
+
+.fixed{
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+.container{
+    background-color: grey;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    
+}
+
+.container button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,54 @@
+/* div{
+    background-color: blue;
+} */
+
+/* CLASS SELECTOR */
+
+.first{
+    background-color: blue;
+}
+
+.group{
+    background-color: green;
+}
+
+/* id selector */
+
+/* #container{
+ background-color: green;  
+} */
+
+
+/* child selector */
+
+.first h1{
+    color: yellow;
+}
+
+.first p{
+    color: grey;
+}
+
+/* universal selector */
+
+/* *{
+    background-color: blue;
+} */
+
+/* COLORS */
+
+/* rgb */
+/* rgba */
+/* hex */
+
+.color{
+    /* background-color: rgb(255,0,0); */
+    /* background-color: rgba(0,0,0,0.6); */
+    background-color: #0343;
+}
+
+/* using external css */
+/* create a new html file  containing two divs with each having h2 and p tags */
+/* the first div should have a background color of grey, and its h2 should have a color of white */
+/* the second div should have a background color of blue, and its h2 should have a color of yellow */
+

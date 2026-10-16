@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+th{
+ border: 1px solid yellow;
+ background-color: green;
+ color: white;
+ padding: 10px;
+ text-align: start;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px auto;
+}
+
+tr:nth-child(odd){
+background-color: lightblue;
+
+}

@@ -1,0 +1,61 @@
+
+/* TEXT PROPERTIES */
+.container h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 50px 10px 1px grey;
+    
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 50px;
+     font-weight: bold;
+     font-style: oblique;
+}
+
+/* box model */
+
+/* margin */
+/* padding */
+/* border */
+
+/* MARGIN */
+/* margin right */
+/* margin left */
+/* margin bottom */
+/* margin top */
+
+.container{
+    background-color: green;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    margin: 0px 50px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    padding: 50px 20px;
+
+    /* border all round */
+    border:  0px groove blue;
+}
+
+  /* height */
+  /* width */
+  /* min-height */
+  /* min-width*/
+  /* box-sizing */
+
+
+  .box{
+   background-color: blue;
+   height: 50px;
+   width: 100px;
+   min-width: 300px;
+ }
+
